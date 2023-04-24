@@ -8,7 +8,7 @@ function volume_sphere(event) {
 	 
 
 	let volume = (4 / 3) * Math.PI * Math.pow(rad, 3);
-	vol.value = volume.toFixed(2); // round to 2 decimal places
+	vol.value = volume ;  
 }
 
 document.getElementById("submit").addEventListener('click', volume_sphere);
